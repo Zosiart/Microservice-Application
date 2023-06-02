@@ -1,0 +1,637 @@
+{
+	"info": {
+		"_postman_id": "603e5e64-c076-4c8b-be40-c6e1afdcdb9d",
+		"name": "SEM30a -> First Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register Authentication - Activity Owner",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"petra\",\r\n    \"password\": \"aasujdy#Agv21423\",\r\n    \"gender\": \"FEMALE\",\r\n    \"email\": \"petra@abc.com\",\r\n    \"roleInfoList\": [{\"role\": \"Coach\", \"level\": \"Amateur\"}, {\"role\": \"PortSideRower\", \"level\": \"Amateur\"}],\r\n    \"availabilities\":[{\"startTime\": \"2021-06-23T12:00:00\", \"endTime\": \"2021-06-23T15:00:00\"}],\r\n    \"certificate\": \"C_FOUR\",\r\n    \"organization\": \"Inc\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register Authentication Activity Applicant Simi",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"petra\",\r\n    \"password\": \"aasujdy#Agv21423\",\r\n    \"gender\": \"FEMALE\",\r\n    \"email\": \"petra@abc.com\",\r\n    \"roleInfoList\": [{\"role\": \"Coach\", \"level\": \"Amateur\"}, {\"role\": \"PortSideRower\", \"level\": \"Amateur\"}],\r\n    \"availabilities\":[{\"startTime\": \"2021-06-23T12:00:00\", \"endTime\": \"2021-06-23T15:00:00\"}],\r\n    \"certificate\": \"C_FOUR\",\r\n    \"organization\": \"Inc\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register Authentication Activity Applicant Mark",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"petra\",\r\n    \"password\": \"aasujdy#Agv21423\",\r\n    \"gender\": \"FEMALE\",\r\n    \"email\": \"petra@abc.com\",\r\n    \"roleInfoList\": [{\"role\": \"Coach\", \"level\": \"Amateur\"}, {\"role\": \"PortSideRower\", \"level\": \"Amateur\"}],\r\n    \"availabilities\":[{\"startTime\": \"2021-06-23T12:00:00\", \"endTime\": \"2021-06-23T15:00:00\"}],\r\n    \"certificate\": \"C_FOUR\",\r\n    \"organization\": \"Inc\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login Authentication Activity Owner",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"petra\",\r\n    \"password\": \"aasujdy#Agv21423\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/authenticate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"authenticate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login Authentication Activity Applicant",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"petra\",\r\n    \"password\": \"aasujdy#Agv21423\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/authenticate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"authenticate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login Authentication Activity Applicant Mark",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"petra\",\r\n    \"password\": \"aasujdy#Agv21423\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/authenticate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"authenticate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Activity matching competition - Simi and Mark both want here",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiZXhwIjoxNjcxNjM0MTc2LCJpYXQiOjE2NzE1NDc3NzZ9.ldhqL0MBeS-l4gW3sMj9liS1YXuDhzrozAD3oCccCiha2Pw2yasfb7_YdhiqKDSR5rsNHmwGvY_CBYyvzVgA8Q",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\":1,\r\n    \"startingDate\":\"2021-06-23 12:00:00\",\r\n    \"endingDate\":\"2021-06-23 15:00:00\",\r\n    \"description\":\"description2\",\r\n    \"certificate\":\"C_FOUR\",\r\n    \"roles\":[{\"role\": \"PortSideRower\", \"numSpot\":2}],\r\n    \"gender\":\"MALE\",\r\n    \"organization\":\"organization\",\r\n    \"level\":\"Amateur\",\r\n    \"isCompetition\":false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8083/api/activity/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"api",
+						"activity",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Activity matching competition Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiZXhwIjoxNjcxNjM0MTc2LCJpYXQiOjE2NzE1NDc3NzZ9.ldhqL0MBeS-l4gW3sMj9liS1YXuDhzrozAD3oCccCiha2Pw2yasfb7_YdhiqKDSR5rsNHmwGvY_CBYyvzVgA8Q",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\":1,\r\n    \"startingDate\":\"2021-06-23 12:00:00\",\r\n    \"endingDate\":\"2021-06-23 15:00:00\",\r\n    \"description\":\"description2\",\r\n    \"certificate\":\"C_FOUR\",\r\n    \"roles\":[{\"role\": \"PortSideRower\", \"numSpot\":2}],\r\n    \"gender\":\"MALE\",\r\n    \"organization\":\"organization\",\r\n    \"level\":\"Amateur\",\r\n    \"isCompetition\":false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8083/api/activity/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"api",
+						"activity",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Activity non matching (close but organization diffferent)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiZXhwIjoxNjcxNjM0MTc2LCJpYXQiOjE2NzE1NDc3NzZ9.ldhqL0MBeS-l4gW3sMj9liS1YXuDhzrozAD3oCccCiha2Pw2yasfb7_YdhiqKDSR5rsNHmwGvY_CBYyvzVgA8Q",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\":1,\r\n    \"startingDate\":\"2023-06-23 12:00:00\",\r\n    \"endingDate\":\"2023-06-23 15:00:00\",\r\n    \"description\":\"description2\",\r\n    \"certificate\":\"C_FOUR\",\r\n    \"roles\":[{\"role\": \"PortSideRower\", \"requiredCount\":2}],\r\n    \"gender\":\"MALE\",\r\n    \"organization\":\"organization\",\r\n    \"level\":\"Amateur\",\r\n    \"competition\":true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8083/api/activity/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"api",
+						"activity",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Activity Wrong time",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiZXhwIjoxNjcxNjM0MTc2LCJpYXQiOjE2NzE1NDc3NzZ9.ldhqL0MBeS-l4gW3sMj9liS1YXuDhzrozAD3oCccCiha2Pw2yasfb7_YdhiqKDSR5rsNHmwGvY_CBYyvzVgA8Q",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\":1,\r\n    \"startingDate\":\"2021-06-23 12:00:00\",\r\n    \"endingDate\":\"2021-06-23 15:00:00\",\r\n    \"description\":\"description2\",\r\n    \"certificate\":\"C_FOUR\",\r\n    \"roles\":[{\"role\": \"PortSideRower\", \"numSpot\":2}],\r\n    \"gender\":\"MALE\",\r\n    \"organization\":\"organization\",\r\n    \"level\":\"Amateur\",\r\n    \"isCompetition\":false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8083/api/activity/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"api",
+						"activity",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Activity Wrong role",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiZXhwIjoxNjcxNjM0MTc2LCJpYXQiOjE2NzE1NDc3NzZ9.ldhqL0MBeS-l4gW3sMj9liS1YXuDhzrozAD3oCccCiha2Pw2yasfb7_YdhiqKDSR5rsNHmwGvY_CBYyvzVgA8Q",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\":1,\r\n    \"startingDate\":\"2021-06-23 12:00:00\",\r\n    \"endingDate\":\"2021-06-23 15:00:00\",\r\n    \"description\":\"description2\",\r\n    \"certificate\":\"C_FOUR\",\r\n    \"roles\":[{\"role\": \"PortSideRower\", \"numSpot\":2}],\r\n    \"gender\":\"MALE\",\r\n    \"organization\":\"organization\",\r\n    \"level\":\"Amateur\",\r\n    \"isCompetition\":false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8083/api/activity/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"api",
+						"activity",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View all activities even if you are not eligible",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Eligible Activities For Simi",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiZXhwIjoxNjcxNTczMjM0LCJpYXQiOjE2NzE0ODY4MzR9.qWSz_jfisfm_DqjaEJif3g7GqkmtNVu9BL8SHaUe3GiwyJ3xmcUhSj9TuIfp0c_CErdPQ0wuaY37URVhszXCYA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8085/planning/activity/available",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"planning",
+						"activity",
+						"available"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eligible Activities For Mark",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiZXhwIjoxNjcxNTczMjM0LCJpYXQiOjE2NzE0ODY4MzR9.qWSz_jfisfm_DqjaEJif3g7GqkmtNVu9BL8SHaUe3GiwyJ3xmcUhSj9TuIfp0c_CErdPQ0wuaY37URVhszXCYA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8085/planning/activity/available",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"planning",
+						"activity",
+						"available"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register Simi For Activity 1",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Register Mark For Activity 1",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Register Mark For Activity 2",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Pending requests",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Inspect appointment Simi",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Accept the Simi request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "See all appointments Simi",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiZXhwIjoxNjcxODMxNzI4LCJpYXQiOjE2NzE3NDUzMjh9.iJ9W0_RUBHMkGcL0LBSDb69H8VKAu3iyRLPsUaDK8xv4wxRTLDjJiKvybUyQ4L6LraGbwxWVIEhT1HWGPSWC6g",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8085/planning/appointment/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"planning",
+						"appointment",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "See all appointments Mark",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiZXhwIjoxNjcxODMxNzI4LCJpYXQiOjE2NzE3NDUzMjh9.iJ9W0_RUBHMkGcL0LBSDb69H8VKAu3iyRLPsUaDK8xv4wxRTLDjJiKvybUyQ4L6LraGbwxWVIEhT1HWGPSWC6g",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8085/planning/appointment/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"planning",
+						"appointment",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Accept the Mark request on activity 1",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Accept the Mark request on activity 2",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "See all appointments Mark final",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiZXhwIjoxNjcxODMxNzI4LCJpYXQiOjE2NzE3NDUzMjh9.iJ9W0_RUBHMkGcL0LBSDb69H8VKAu3iyRLPsUaDK8xv4wxRTLDjJiKvybUyQ4L6LraGbwxWVIEhT1HWGPSWC6g",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8085/planning/appointment/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"planning",
+						"appointment",
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

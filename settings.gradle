@@ -1,0 +1,8 @@
+rootProject.name = 'sem-30a'
+
+include 'authentication-microservice'
+include 'activity-microservice'
+include 'user-microservice'
+include 'planning-microservice'
+include 'messaging-microservice'
+include 'gateway-microservice'

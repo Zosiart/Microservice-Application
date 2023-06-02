@@ -1,0 +1,48 @@
+{
+  "properties": [
+    {
+      "name": "jdbc.pass",
+      "type": "java.lang.String",
+      "description": "Password for the database."
+    },
+    {
+      "name": "jdbc.user",
+      "type": "java.lang.String",
+      "description": "User name for the database."
+    },
+    {
+      "name": "jdbc.url",
+      "type": "java.lang.String",
+      "description": "URL for the database."
+    },
+    {
+      "name": "jdbc.driverClassName",
+      "type": "java.lang.String",
+      "description": "Class of the JDBC driver to use."
+    },
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "JWT secret."
+    },
+    {
+      "name": "service.planning",
+      "type": "java.lang.String",
+      "description": "Address of the planning service."
+    },
+    {
+      "name": "service.message",
+      "type": "java.lang.String",
+      "description": "Address of the message service."
+    },
+    {
+      "name": "service.activity",
+      "type": "java.lang.String",
+      "description": "Address of the activity service."
+    },
+    {
+      "name": "service.user",
+      "type": "java.lang.String",
+      "description": "Address of the user service."
+    }
+  ]}

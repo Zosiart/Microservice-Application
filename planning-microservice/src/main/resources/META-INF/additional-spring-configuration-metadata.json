@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "name": "jdbc.url",
+      "type": "java.lang.String",
+      "description": "JDBC URL for the database."
+    },
+    {
+      "name": "jdbc.driverClassName",
+      "type": "java.lang.String",
+      "description": "JDBC driver class name."
+    },
+    {
+      "name": "jdbc.user",
+      "type": "java.lang.String",
+      "description": "JDBC user name."
+    },
+    {
+      "name": "jdbc.pass",
+      "type": "java.lang.String",
+      "description": "JDBC password."
+    },
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "JWT secret key."
+    }
+  ] }
